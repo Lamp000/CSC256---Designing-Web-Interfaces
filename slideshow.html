@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+<body>
+    <header>
+        <!-- title -->
+        <h1>Rain World Slideshow</h1>
+        <!-- buttons use the function from my .js file. It changes a variable by the amount inputted in the function, then sets the image to the variable's number -->
+        <button onclick="changeSlide(-1)">Previous</button>
+        <button onclick="changeSlide(1)">Next</button>
+    </header>
+    <section>
+        <img id="image">
+    </section>
+</body>
+<script src="slideshow.js"></script>
+<script>changeSlide(0)</script>
+</html>
