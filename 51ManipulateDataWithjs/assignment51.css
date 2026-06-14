@@ -1,0 +1,48 @@
+a{
+    text-transform:capitalize;
+    background-color: #3cff003a;
+}
+a:hover{
+    color:blue;
+    background-color: rgba(255, 0, 0, 0.253);
+}
+li:hover{
+    color:red;
+}
+
+li{
+    margin:4px;
+    width:max-content;
+}
+h1{
+    font-size: 50px;
+    margin:15px;
+    padding:5px;
+    width:max-content;
+    background-color: rgba(247, 0, 255, 0.267);
+    color:rgb(0, 0, 0);
+    user-select: none;
+}
+h1:hover{
+    cursor:default;
+}
+ul{
+    margin:3px;
+    width:max-content;
+    background-color: rgba(255, 255, 255, 0.267);
+    height:calc(max-content + 10px);
+}
+#movieInput{
+    margin:15px;
+    background-color: rgba(255, 186, 101, 0.397);
+    padding:10px;
+    width:max-content;
+    user-select: none;
+}
+button:hover{
+    font-weight:bold;
+    cursor:pointer;
+}
+body{
+    background-color: beige;
+}
