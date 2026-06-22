@@ -1,0 +1,20 @@
+h1{
+    color:red;
+}
+main{
+    display: block;
+    text-align: center;
+    margin:auto;
+}
+div{
+    color: pink;
+}
+button{
+    background-color: coral;
+}
+button:hover{
+    color:coral;
+}
+body{
+    background-color:black;
+}

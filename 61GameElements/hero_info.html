@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Information</title>
+    <link href="hero.css" rel="stylesheet">
+    <script src="hero.js"></script>
+</head>
+<body>
+    <!-- header section for any page title, menu, logo -->
+    <header>
+        <!-- page title -->
+        <h1>Hero Information</h1>
+    </header>
+
+    <!-- core content of the page can go in a main tag -->
+    <main>
+        <!-- we will get the inputs for the hero's info -->
+         <form name="frmGero" id="frmHero">
+            <!-- add a div so that the related label and inputs are on the same line -->
+            <div>
+                <label for="txtUserName">User Name: </label>
+                <input type="text" id="txtUserName" name="txtUserName" placeholder="User Name">
+            </div>
+            <div>
+                <label for="txtSkill">Special Skill: </label>
+                <input type="text" id="txtSkill" name="txtSkill" placeholder="Skill">
+            </div>
+            <div>
+                <label for="numHealth">Health: </label>
+                <input type="number" id="numHealth" name="numHealth">
+            </div>
+            <div>
+                <label for="numPoints">Point Total: </label>
+                <input type="number" id="numPoints" name="numPoints">
+            </div>
+
+            <!-- add the type of button so the form does not try to save -->
+            <button type="button" onclick="saveInfo()">Save Hero!</button>
+         </form>
+
+         <div>
+            <h2>Hero Info:</h2>
+            <div>
+                <textarea id="textahero" name="textahero" readonly rows="8" cols="30"></textarea>
+            </div>
+         </div>
+    </main>
+</body>
+</html>
