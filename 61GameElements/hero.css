@@ -1,6 +1,9 @@
 h1{
     color:red;
 }
+header{
+    text-align: center;
+}
 main{
     display: block;
     text-align: center;
