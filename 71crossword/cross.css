@@ -1,0 +1,28 @@
+table{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius:8px;
+    border-collapse: collapse;
+}
+td{
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+    width:40px;
+    height:40px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius:6px;
+    position:relative;
+}
+input{
+    width:100%;
+    height:100%;
+    border:none;
+    text-align:center;
+    margin: 0 auto;
+    text-transform:uppercase;
+}
+div{
+    position:absolute;
+    left:5%;
+    top:5%;
+
+}

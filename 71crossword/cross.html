@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Crossword Puzzle!</title>
+    <link href="cross.css" rel="stylesheet">
+    <script src="cross.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Fun Crossword Puzzle!</h1>
+    </header>
+    <main>
+        <table id="puzzle"></table>
+        <h2>Clues</h2>
+        <ol>
+            <h3>Horizontal</h3>
+            <li>A coding language</li>
+            <h3>Vertical</h3>
+            <li>A 3D square</li>
+            <li>To carefully assess the value of something</li>
+        </ol>
+    </main>
+    <script>
+        createBoard(10, 10)
+        buildLetters(0,0,"across",arrWords[0], document.getElementById("puzzle"),false,1);
+        buildLetters(0,1,"Down",arrWords[1], document.getElementById("puzzle"),false,2);
+        buildLetters(0,5,"Down",arrWords[2], document.getElementById("puzzle"),false,3);
+    </script>
+</body>
+</html>
