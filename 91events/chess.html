@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Queens Problem</title>
+    <link href="chess.css" rel="stylesheet">
+</head>
+<body>
+    <h1>The 8 Queens Problem</h1>
+    <h2>Place 8 Queens on an 8x8 chessboard, while none threaten each other</h2>
+    <br>
+    <div>
+        <button onclick="resetBoard()">Reset the board</button>
+        <br>
+        <button onclick="getHint()">Get a Hint!</button>
+        <br>
+        <button onclick="seeSolutions()">See potential solutions to current board</button>
+        
+    </div>
+    <br>
+    <section>
+        <div id="pieceLayer"></div>
+        <table id="chess"></table>
+    </section>
+    <div id="solutions"></div>
+</body>
+<script src="8queens.js"></script>
+<script>
+    createBoard(8,8);
+</script>
+</html>
