@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameShelf</title>
+    <link href="final.css" rel="stylesheet">
+</head>
+<body>
+<div id="sidebar">
+    <form id="addGameForm">
+
+    <label for="titleInput">Game Title</label>
+    <input type="text" id="titleInput" placeholder="Enter game title" required>
+    <br>
+    <label for="typeInput">Game Type</label>
+    <select id="typeInput" required>
+        <option value="video-game">Video Game</option>
+        <option value="board-game">Board Game</option>
+    </select>
+    <br>
+    <label for="imageInput">Cover Image</label>
+    <input type="file" id="imageInput" accept="image/*" required>
+    <br>
+    <button type="submit">Add Game</button>
+    </form>
+    
+    </div>
+    <header>
+        <button>open sidebar</button>
+        <button>add to collection</button>
+        <input placeholder="search">
+        <button>settings</button>
+    </header>
+    <main class="scrollable">
+        <div id="gameCollection"></div>
+    </main>
+    <script src="finalpage.js"></script>
+    <script>
+    </script>
+</body>
+</html>
