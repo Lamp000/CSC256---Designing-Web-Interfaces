@@ -1,0 +1,19 @@
+Hello, you might have noticed the other files that are not my final and are not a part of my website in this folder. I wanted to write this explaining those
+
+	AI USAGE IN MY FINAL-
+There should be something like "Ai.txt" in this folder. This is a saved chat I had with ChatGPT. 
+This chat was all about how to use IndexedDB for my project. I didn't want to be dishonest and say I wrote every line of code, but I believe my usage of AI was ethical as it was a tool rather than a worker. I also didn't want to just leave a comment on my project
+submission that says "hey I used AI for part of my project" since that could send the message that my entire final was done by 'GPT and that I don't understand how it works (I do). I didn't know how to get the database setup, and I didn't want to just
+not submit anything, so I tried to have the AI generate some functions, and I tried to learn and understand them. 
+Actually, all of the functions that used AI, ALSO have lots of comments from me that was me —in the moment— trying to figure out what the heck 'GPT decided to generate. So, if you'd like, those are still there to be read.
+
+The parts of my JS that I generated with AI are these functions:
+openDatabase(), addGame(), loadGames(), displayGame(game, number) (though displayGame() I did change a little bit once I understood it more), and deleteGame(id)
+
+My HTML, CSS, and all of my playlist functions were handwritten by me with no AI help. In addition, this file and every discussion or assignment I've done in the past has never used AI.
+
+
+	IMAGES IN MY FOLDER-
+I have a couple of extra images in this folder. These are simple pictures of my notebook. I used my notebook to sort of write down my thoughts and figure out concepts I wanted.
+This is here a little bit because of the aforementioned AI usage, and I really just want to show that I do understand my code. 
+But mainly, it's really just concept stuff. I know stuff like this some people like, so I just put it in there since it doesn't hurt to have it.
